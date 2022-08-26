@@ -6,12 +6,12 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Screenshot
 
-![]()
+![](https://github.com/ananegridev/frontendmentor-stats-preview-card-component/blob/main/images/desktop-design.jpg)
 
 ### Links
 
-- Solution URL: [Page Frontend Mentor]()
-- Live Site URL: [Page Public]()
+- Solution URL: [Page Frontend Mentor](https://www.frontendmentor.io/solutions/solution-stats-preview-card-component-Cc5IXp4SHe)
+- Live Site URL: [Page Public](https://frontendmentor-stats-preview-card-component-xi.vercel.app/)
 
 ### Built with
 
