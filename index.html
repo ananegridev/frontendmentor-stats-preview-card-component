@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- picturefill.js -->
+    <script>
+      document.createElement("picture");
+    </script>
+    <script defer src="./picturefill.js" async></script>
+    <script defer src="./picturefill.min.js" async></script>
+  </head>
+  <body>
+    <main>
+      <picture>
+        <source
+          media="(min-width:769px)"
+          srcset="./images/image-header-desktop.jpg"
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="./images/image-header-mobile.jpg"
+        />
+        <img
+          id="image"
+          src="./images/image-header-mobile.jpg"
+          alt="picture of a meeting"
+        />
+      </picture>
+      <!-- END PICTURE -->
+
+      <section>
+        <div>
+          <h1 class="f-inter-bold">
+            Get <span>insights</span> that help your business grow.
+          </h1>
+          <p class="f-inter-regular">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+        </div>
+
+        <div class="stats">
+          <div>
+            <dt class="f-inter-bold">10k+</dt>
+            <dd class="f-laxend-regular">companies</dd>
+          </div>
+          <div class="stats-item">
+            <dt class="f-inter-bold">314</dt>
+            <dd class="f-laxend-regular">templates</dd>
+          </div>
+          <div class="stats-item">
+            <dt class="f-inter-bold">12M+</dt>
+            <dd class="f-laxend-regular">queries</dd>
+          </div>
+        </div>
+      </section>
+      <!-- END SECTION -->
+    </main>
+    <!-- END MAIN -->
+
+    <div class="attribution f-laxend-regular">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/ananegridev">ananegridev</a>.
+    </div>
+  </body>
+</html>
