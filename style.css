@@ -155,8 +155,8 @@ dd {
     flex-direction: column;
     margin-top: 20px;
   }
-  .stats div:first-child,
-  .stats div:nth-child(2) {
+  .stats dl:first-child,
+  .stats dl:nth-child(2) {
     margin-bottom: 20px;
   }
 }
